@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
+        "php": ">=5.4.0",
         "intervention/image": "^2.3"
     },
     "autoload": {        
