@@ -2,21 +2,20 @@
     "name": "ivliev/imagefly",
     "description": "Imagefly for Laravel 5.x",
     "license": "MIT",
+    "version": "1.0",
     "authors": [
         {
-            "name": "Andrej Ivliev",
+            "name": "Andrej Ivliev"
         }
     ],
-    autoload": {
-        "psr-4": {
-            "App\\": "app/",
-            "Ivliev\\Imagefly": "src/"
-        }
-    },
     "require": {
         "php": ">=5.5.9",
         "intervention/image": "^2.3"
-    }, 
-    "minimum-stability": "dev",
-    "require": {}
+    },
+    "autoload": {        
+        "psr-0": {
+            "Ivliev\\Imagefly\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
