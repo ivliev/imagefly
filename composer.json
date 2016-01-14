@@ -12,7 +12,7 @@
         "intervention/image": "^2.3"
     },
     "autoload": {        
-        "psr-0": {
+        "psr-4": {
             "Ivliev\\Imagefly\\": "src/Ivliev/Imagefly"
         }
     },
