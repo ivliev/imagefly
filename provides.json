@@ -1,0 +1,11 @@
+{
+  "providers": [
+    "Ivliev\Imagefly\ImageflyServiceProvider"
+  ],
+  "aliases": [
+    {
+      "alias": "Imagefly",
+      "facade": "Ivliev\Imagefly\Facades\Imagefly"
+    }
+  ]
+}
