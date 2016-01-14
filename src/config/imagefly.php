@@ -31,6 +31,7 @@ return [
 		* Any other param configuration will throw a 404 error.
 		*/
 		'presets'          => array(
+				'w320-h240-c',
 				/* Example
 				 'w320-h240-c',
 				 'w320-h240-nc',
