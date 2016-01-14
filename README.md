@@ -16,9 +16,6 @@ Install using composer:
 composer require ivliev/imagefly
 ```
 
-Laravel (optional)
-------------------
-
 Add the service provider in `app/config/app.php`:
 
 ```php
