@@ -2,7 +2,7 @@
     "name": "ivliev/imagefly",
     "description": "Imagefly for Laravel 5.x",
     "license": "MIT",
-    "version": "1.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Andrej Ivliev"
