@@ -14,6 +14,7 @@ class ImageflyServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes(array(
+            'vendor/intervention/image/src/config/config.php' => config_path('image.php'),
             __DIR__.'/../../config/imagefly.php' => config_path('imagefly.php')
         ));
     }
