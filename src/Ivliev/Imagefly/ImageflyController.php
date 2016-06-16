@@ -1,14 +1,11 @@
 <?php
 namespace Ivliev\Imagefly;
 
-use Illuminate\Routing\Controller as BaseController;
-use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
-use Illuminate\Foundation\Bus\DispatchesJobs;
-use Illuminate\Foundation\Validation\ValidatesRequests;
+use App\Http\Controllers\Controller;
 
-class ImageflyController extends BaseController
+class ImageflyController extends Controller
 {
-    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
     /*
      * |--------------------------------------------------------------------------
      * | Imagefly Controller
