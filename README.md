@@ -91,5 +91,8 @@ Here are some examples of what you can do with Imagefly.
 **Resize proportionally until either the width or height is 100 pixels, whichever comes first**  
 `<img src="/imagefly/w100-h100/path/to/image.jpg">`
 
+**Resize automatically proportionally until either the width or height is max. 100 pixels**  
+`<img src="/imagefly/w100-h100-a/path/to/image.jpg">`
+
 **Resize proportionally until height is 100 pixels with JPEG quality set to 60**  
 `<img src="/imagefly/h100-q60/path/to/image.jpg">`

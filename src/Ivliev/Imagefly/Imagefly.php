@@ -292,6 +292,9 @@ class Imagefly
             $img->insert($this->image, 'center');
             
             $this->image = $img;
+        } elseif (isset($this->url_params['a']) && $this->url_params['a']) {
+            // Just Resize automatically
+            $this->resize($this->url_params['w'], $this->url_params['h']);
         } else {
             // Just Resize
             $this->resize($this->url_params['w'], $this->url_params['h'], self::INVERSE);
