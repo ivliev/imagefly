@@ -171,10 +171,9 @@ class Imagefly
         // echo $params; exit;
         
         // If enforcing params, ensure it's a match
-        if ($this->config['enforce_presets'] and ! in_array($params, $this->config['presets']))
-            throw new HTTP_Exception_404('The requested URL :uri was not found on this server.', array(
-                ':uri' => Request::$current->uri()
-            ));
+        if ($this->config['enforce_presets'] && !in_array($params, $this->config['presets'])) {
+            abort(404);
+        }
         
         $image = new Image();
         $image->configure(config('image'));
