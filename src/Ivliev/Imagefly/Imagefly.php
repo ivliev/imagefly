@@ -177,7 +177,11 @@ class Imagefly
         
         $image = new Image();
         $image->configure(config('image'));
-        $this->image = $image->make($filepath);
+        if (function_exists('exif_read_data')) {
+            $this->image = $image->make($filepath)->orientate();
+        } else {
+            $this->image = $image->make($filepath);
+        }
         
         // The parameters are separated by hyphens
         $raw_params = explode('-', $params);
