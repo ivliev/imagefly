@@ -1,11 +1,11 @@
-# Imagefly for Laravel 5
+# Imagefly for Laravel 6 / 7
 
 This module allows you to quickly create resized / cropped images directly through url parameters.  
 Modified images are cached after the initial request and served up thereafter to help reduce server strain.
 
 ## Compatibility
 
-Imagefly currently works with Laravel 5.x
+Imagefly currently works with Laravel 6.x and 7.x
 
 Installation
 ------------
