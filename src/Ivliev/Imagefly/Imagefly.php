@@ -304,7 +304,7 @@ class Imagefly
         }
         
         // Apply any valid watermark params
-        // $watermarks = array_get($this->config, 'watermarks');
+        // $watermarks = \Arr::get($this->config, 'watermarks');
         // if ( ! empty($watermarks))
         // {
         // foreach ($watermarks as $key => $watermark)
@@ -323,7 +323,7 @@ class Imagefly
             $this->image->save($this->cached_file, $this->url_params['q']);
         } else {
             // Save image with default quality
-            $this->image->save($this->cached_file, array_get($this->config, 'quality', 80));
+            $this->image->save($this->cached_file, \Arr::get($this->config, 'quality', 80));
         }
     }
 
