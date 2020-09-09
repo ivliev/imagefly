@@ -1,7 +1,7 @@
 {
     "name": "ivliev/imagefly",
-    "description": "Imagefly for Laravel 6.x and 7.x",
-    "version": "2.0.1",
+    "description": "Imagefly for Laravel 6.x, 7.x, 8.x",
+    "version": "2.0.2",
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +11,7 @@
     "require": {
         "php": ">=7.2.5",
         "intervention/image": "^2.3",
-        "illuminate/support": "^6.0|^7.0"
+        "illuminate/support": "^6.0|^7.0|^8.0"
     },
     "autoload": {        
         "psr-4": {
